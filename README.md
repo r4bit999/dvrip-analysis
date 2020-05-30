@@ -1,6 +1,7 @@
 # DVRIP Protocol Client and Fuzzing Engine
 This repository is only for informational and educational purpose.  
-  
+Feel free to reach me out tvogt@stud.hs-offenburg.de
+
 **dvripFuzzEngine.py** : main application - client simulation and fuzzing of the DVRIP protocol (implementation)  
 change runmodul = "client simulate all" in the main() function to the corresponding module you want to run. IP, username, password is also currently hardcoded.
 
