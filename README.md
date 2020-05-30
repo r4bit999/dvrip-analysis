@@ -2,6 +2,8 @@
 This repository is only for informational and educational purpose.  
   
 **dvripFuzzEngine.py** : main application - client simulation and fuzzing of the DVRIP protocol (implementation)  
+change runmodul = "client simulate all" in the main() function to the corrosponding module you want to run. IP, username, password is also currently hardcoded.
+
 **dvripLoggingEninge.py** : logging Engine - writter for (patched) telnet access  
 **dvripNetzobInferring.py** : protocol analysis and inferring with Netzob  
 **dvripWireshark.lua** : Wireshark Dissector for DVRIP  
